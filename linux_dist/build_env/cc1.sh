@@ -34,7 +34,10 @@ cd $DIST_ROOT/build_env
 #bash -e build_scripts/gcc-pass-2.sh gcc-10.2.0.tar.xz
 #bash -e build_scripts/binutils-pass-2.sh binutils-2.36.1.tar.xz
 
-
 #bash -e build_scripts/
+
+
+sudo -E build_scripts/bchroot.sh
+
 
 echo "DONE!"

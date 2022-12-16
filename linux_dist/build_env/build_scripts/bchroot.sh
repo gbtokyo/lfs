@@ -73,7 +73,7 @@ chroot "$LFS" /usr/bin/env -i   \
     TERM="$TERM"                \
     PS1='(lfs chroot) \u:\w\$ ' \
     PATH=/bin:/usr/bin:/sbin:/usr/sbin \
-    /dist/build_env/build_scripts/finish-chroot.sh
+    /dist/build_env/build_scripts/finchroot.sh
 
 bash -e $DIST_ROOT/build_env/build_scripts/umount-virt.sh
 
